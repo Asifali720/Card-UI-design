@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #b7edeb;
+    padding: 50px;
+}
+.container .card {
+    width: 320px;
+    height: 400px;
+    background: #f8f6f6;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h2 {
+    font-size: 15px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+h6 {
+    font-size: 10px;
+    padding: 13px;
+    vertical-align: top;
+}
+.container .card .contentbx p {
+    vertical-align: top;
+    padding-inline-start: 5px;
+    font-size: 12px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class1 {
+    text-align: center;
+    padding: 3px;
+    margin: 0px 15px;
+    color: white;
+    background: #4bf129;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.span1 {
+    text-align: center;
+    display: inline-block;
+    background: #b7edeb;
+    border-radius: 4px;
+}
+.span2 {
+    text-align: center;
+    display: inline-block;
+    background: #b7edeb;
+    border-radius: 4px;
+}
+.span3 {
+    text-align: center;
+    display: inline-block;
+    background: #b7edeb;
+    border-radius: 4px;
+}
+hr {
+    padding: 0px;
+    color: gray;
+}
+input[type="button"] {
+    margin: 30px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: rgb(11, 172, 247);
+    border-radius: 20px;
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+p {
+    padding: 12px;
+}
+input[type="button"]:hover {
+    background: blue;
+}
+a {
+    margin: 0px 12px;
+    color: rgb(11, 172, 247);
+}
+a:hover {
+    color: blue;
+}
